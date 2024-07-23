@@ -1,0 +1,139 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    min-height: 100vh;
+      
+}
+
+b, strong {
+    color: hsl(14, 45%, 36%);
+    }
+ 
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+.outfit-font {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400, 600, 700;
+  font-style: normal;
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+.main-container {
+display: flex;
+max-width: 640px;
+background-color: white;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+border-radius: 20px;
+padding: 30px 40px 30px 40px;
+margin: 120px auto;
+}
+
+.prep-box {
+    background-color: hsl(330, 100%, 98%);
+    font-family: "Outfit";
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 10px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+hr {
+    border-top: 1px solid hsl(30, 18%, 87%);
+    width: 100%;
+ 
+  }
+
+h1 {
+    color: hsl(24, 5%, 18%);
+    font-family: "Young Serif", serif;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    color: hsl(14, 45%, 36%);
+    padding: 0 24px;
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+li::marker {
+    color:  hsl(14, 45%, 36%);
+  }
+
+
+.main-image {
+display: flex;
+max-width: 100%;
+max-height: 300px;
+border-radius: 14px;
+}
+
+.container-text {
+display: flex;
+max-width: 640px;
+flex-direction: column;
+}
+
+.ingredient-box {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+.instruction-box {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+.nutrition-box {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+
+table {
+    border-collapse: collapse;
+
+  }
+  
+  tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+  }
+
+    td {
+        height: 50px;
+        vertical-align: center;
+        width: 1%;
+    
+    }
+
+  
+  tr:last-child {
+    border-bottom: none;
+  }
